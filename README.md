@@ -1,6 +1,6 @@
 Green Dao
 
-Официальная документация
+Официальная документация:
 http://greendao-orm.com/documentation/
 
 Подключение к проекту:

@@ -15,6 +15,7 @@ public class GreenDaoClassGenerator {
     public static void main(String[] args) throws Exception {
         Schema schema = new Schema(1, "com.yeryomenkom.greendaotest.database.gen");
 
+        //позволяет избежать полной регенерации кода сущностей
         schema.enableKeepSectionsByDefault();
 
         addTables(schema);

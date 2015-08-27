@@ -10,7 +10,7 @@ import de.greenrobot.daogenerator.ToOne;
 public class GreenDaoClassGenerator {
     private static final String PROJECT_DIR = System.getProperty("user.dir").replace("\\", "/");
 
-    private static final String OUT_DIR = PROJECT_DIR + "/src/main/java/";
+    private static final String OUT_DIR = PROJECT_DIR + "/app/src/main/java/";
 
     public static void main(String[] args) throws Exception {
         Schema schema = new Schema(1, "com.yeryomenkom.greendaotest.database.gen");
@@ -20,7 +20,7 @@ public class GreenDaoClassGenerator {
 
         addTables(schema);
 
-        new DaoGenerator().generateAll(schema, OUT_DIR.replace("greendao","app"));
+        new DaoGenerator().generateAll(schema, OUT_DIR);
     }
 
     /**

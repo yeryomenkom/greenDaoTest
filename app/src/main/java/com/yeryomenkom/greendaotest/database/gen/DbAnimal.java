@@ -163,7 +163,6 @@ public class DbAnimal {
     public void setLegs(List<DbLeg> legs) {
         this.legs = legs;
     }
-
     // KEEP METHODS END
 
 }
